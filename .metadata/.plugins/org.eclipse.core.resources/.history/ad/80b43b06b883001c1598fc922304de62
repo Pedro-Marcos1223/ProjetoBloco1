@@ -1,8 +1,0 @@
-package Quizz;
-
-public class Quizz {
-
-	private Pergunta perguntas [] = new Pergunta [2]; //Aqui que eu mudo a quantidade de perguntas do quizz
-	
-	
-}

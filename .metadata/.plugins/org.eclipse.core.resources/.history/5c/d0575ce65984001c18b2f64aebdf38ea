@@ -1,7 +1,0 @@
-package Herança1;
-
-public class Cachorro extends Animal {
-
-	
-	
-}
