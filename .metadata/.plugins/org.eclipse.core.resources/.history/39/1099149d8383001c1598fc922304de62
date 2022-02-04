@@ -1,0 +1,16 @@
+package Heranca;
+
+public class ObjetoAnimais {
+
+	public static void main(String [] args) {
+		
+		Cachorro p1 = new Cachorro();
+		
+		p1.setNome("Bolota");
+		p1.setIdade(11);
+		p1.setSom("Auuuuuuuuuuuuu!!!");
+		p1.status();
+		
+		
+	}
+}

@@ -1,0 +1,31 @@
+package Quizz;
+
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String [] args) {
+		
+		Base p1 = new Base();
+		Scanner ler = new Scanner(System.in);
+		
+		String x;
+		
+		p1.setQuestao("Quanto é 2+2: ");
+		p1.setAlternativa1("A) 4");
+		p1.setAlternativa2("B) 7");
+		p1.setAlternativa3("C) 6");
+		p1.setAlternativa4("D) 3");
+		p1.status();
+		System.out.println("Digite sua resposta: ");
+		x=ler.nextLine();
+		p1.setX(x);
+			if(x=="A") {
+				System.out.println("A resposta está exata.");
+			}else {
+				System.out.println("A resposta esta errada.");
+			}
+		
+		
+	}
+}

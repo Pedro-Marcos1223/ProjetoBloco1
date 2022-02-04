@@ -1,0 +1,5 @@
+package Herança1;
+
+public abstract class Animal {
+
+}

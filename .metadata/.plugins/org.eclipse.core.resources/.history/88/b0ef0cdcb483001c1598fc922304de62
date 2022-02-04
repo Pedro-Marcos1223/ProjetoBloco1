@@ -1,0 +1,43 @@
+package Quizz2;
+
+import java.util.Scanner;
+
+public class ClasseMae {
+
+	public static void main(String [] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		char x;
+		
+		System.out.println("Digite uma letra: ");
+		x=ler.next().charAt(0);
+		
+		if(x==46) {
+			System.out.println("Certo");
+		} else {
+			System.out.println("Errado");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

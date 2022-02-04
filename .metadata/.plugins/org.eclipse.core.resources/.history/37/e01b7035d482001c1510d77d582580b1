@@ -1,0 +1,14 @@
+package orientacaoObjeto;
+
+public class Exercicio1Exe {
+
+	public static void main(String [] args) {
+		
+		Exercicio1Modulo exe = new Exercicio1Modulo();
+		
+		exe.informarNome();
+		exe.informarEmail();
+		exe.informarCpf();
+		exe.informarRg();
+	}
+}

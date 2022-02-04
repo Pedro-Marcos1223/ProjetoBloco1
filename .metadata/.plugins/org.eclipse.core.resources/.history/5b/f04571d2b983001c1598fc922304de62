@@ -1,0 +1,20 @@
+package Quizz;
+
+public class Quizz {
+
+	private int contador=0;
+	
+	private Pergunta perguntas [] = new Pergunta [2]; //Aqui que eu mudo a quantidade de perguntas do quizz
+	
+	public void adicionarPergunta(String questao, String alternativa1, String alternativa2, String alternativa3, String alternativa4, int alternativaCorreta) {
+		Pergunta pergunta = new Pergunta ();
+		pergunta.setQuestao(questao);
+		pergunta.setAlternativas(alternativa1, alternativa2, alternativa3, alternativa4);
+		pergunta.setAlternativaCorreta(alternativaCorreta);
+		contador++;
+		
+		perguntas[contador]=pergunta; 
+		 
+		
+	}
+}

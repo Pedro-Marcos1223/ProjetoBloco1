@@ -1,0 +1,68 @@
+package Collections;
+
+public class LocadoraBack {
+
+	private String filme;
+	private String serie;
+	private String anime;
+	private double preco;
+	
+	public LocadoraBack(String x, double y) {
+		this.filme=x;
+		this.preco=y;
+	}
+	
+	public void LocadoraAnime(String x, double y) {
+		this.anime=x;
+		this.preco=y;
+	}
+	
+	public void LocadoraSerie(String x, double y) {
+		this.serie=x;
+		this.preco=y;
+	}
+
+	
+	public String getFilme() {
+		return filme;
+	}
+
+	public void setFilme(String filme) {
+		this.filme = filme;
+	}
+
+	public String getSerie() {
+		return serie;
+	}
+
+	public void setSerie(String serie) {
+		this.serie = serie;
+	}
+
+	public String getAnime() {
+		return anime;
+	}
+
+	public void setAnime(String anime) {
+		this.anime = anime;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	
+	public String toStringFilme() {
+		return "Filme: "+this.filme+" Preço: "+this.preco;
+	}
+	public String toStringAnime() {
+		return "Filme: "+this.anime+" Preço: "+this.preco;
+	}
+	public String toStringerie() {
+		return "Filme: "+this.filme+" Preço: "+this.preco;
+	}
+	
+}

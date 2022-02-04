@@ -1,0 +1,16 @@
+package orientacaoObjeto;
+
+public class xicara {
+
+	int capacidade;
+	String material;
+	String formato;
+	String cor;
+	boolean cheia = true;
+	
+	public void encher()
+	{
+		cheia==true;
+	}
+	
+}
